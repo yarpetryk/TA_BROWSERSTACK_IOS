@@ -1,0 +1,14 @@
+import allure
+from pages.locators import ProfileSettingsPageLocators
+from pages.base_pages import BasePage
+
+
+class ProfileSettingsPage(BasePage):
+    """Description """
+    @allure.step("And user click on the reset password item")
+    def click_reset_password_item(self):
+        self.find_element_and_click(ProfileSettingsPageLocators.RESET_PASSWORD_ITEM)
+
+    @allure.step("And user click the back button")
+    def click_back_button(self):
+        self.find_element_and_click(ProfileSettingsPageLocators.BACK_BUTTON)

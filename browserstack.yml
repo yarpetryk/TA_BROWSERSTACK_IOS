@@ -1,0 +1,17 @@
+username: qateam_ps08P5
+accessKey: mLF2Exvwi11P7sqpHpWs
+projectName: BrowserStack Samples
+buildName: iOS -> browserstack build
+buildIdentifier: '20'
+framework: pytest
+app: bs://2d15f6a62bf528fc790fc9e4954c5278719de58d
+platforms:
+  - deviceName: iPhone 14
+    osVersion: 16
+    platformName: ios
+parallelsPerPlatform: 1
+browserstackLocal: true
+source: pytest-appium-browserstack:sample-sdk:v1.0
+debug: false
+networkLogs: false
+consoleLogs: errors
